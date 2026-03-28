@@ -1,0 +1,118 @@
+body{
+margin:0;
+font-family:Arial;
+scroll-behavior:smooth;
+}
+
+/* Header */
+header{
+display:flex;
+justify-content:space-between;
+padding:20px 80px;
+background:#111;
+color:white;
+position:sticky;
+top:0;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#00c6ff;
+}
+
+/* Hero */
+.hero{
+text-align:center;
+padding:150px 20px;
+background:linear-gradient(to right,#3d8d7a);
+color:rgb(234, 230, 230);
+}
+
+.hero h1{
+font-size:50px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:18px;
+background-color: #3d8d7a;
+}
+
+/* Button */
+.btn{
+padding:12px 30px;
+background:rgb(250, 246, 246);
+color:#0072ff;
+text-decoration:none;
+margin-top:20px;
+display:inline-block;
+border-radius:25px;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#fffacd;
+color:rgb(35, 10, 201);
+transform:scale(1.1);
+}
+
+/* About */
+.about{
+text-align: center;
+max-width: 600px;
+margin: auto;
+line-height: 1.6;
+padding:80px 20px;
+}
+
+/* Services */
+.services{
+text-align:center;
+padding:80px 20px;
+background:#f4f4f4;
+
+}
+
+.service-box{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+margin-top:40px;
+}
+
+.box{
+background:white;
+padding:25px;
+width:220px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(192, 62, 62, 0.2);
+transition:0.3s;
+cursor:pointer;
+}
+
+.box:hover{
+transform:translateY(-10px);
+box-shadow:0 0 20px #190db9, 0 0 40px #6f8299;
+}
+
+/* Contact */
+.contact{
+text-align:center;
+padding:80px 20px;
+background: white;
+}
+
+/* Footer */
+footer{
+text-align:center;
+padding:20px;
+background:#111;
+color:white;
+}
